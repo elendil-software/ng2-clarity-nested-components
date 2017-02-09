@@ -1,0 +1,10 @@
+<div class="content-area">
+  <h1>Sidebar Main Component</h1>
+  <p>sidebar-main works!</p>
+  <router-outlet name="sidebar-sub"></router-outlet>
+</div>
+<nav class="sidenav">
+  <section class="sidenav-content">
+    <a class="nav-link" [routerLink]="['/sidebar', { outlets: {'sidebar-sub': ['sidebar-sub1'] } }]">Sub Component</a>
+  </section>
+</nav>

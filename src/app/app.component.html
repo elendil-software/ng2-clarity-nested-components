@@ -1,0 +1,16 @@
+<div class="main-container">
+    <header class="header header-5">
+        <div class="branding">
+            <a class="logo-and-title" [routerLink]="['/simple']">
+                <span class="title">TestClarity</span>
+            </a>
+        </div>
+        <div class="divider"></div>
+        <div class="header-nav clr-nav-level-1">
+            <a class="nav-link" [routerLink]="['/simple']"><span class="nav-text">Simple</span></a>
+            <a class="nav-link" [routerLink]="['/sidebar']"><span class="nav-text">Sidebar</span></a>
+            <a class="nav-link" [routerLink]="['/subnav']"><span class="nav-text">Subnav</span></a>
+        </div>
+    </header>
+    <router-outlet></router-outlet>
+</div>
