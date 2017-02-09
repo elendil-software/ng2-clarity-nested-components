@@ -1,6 +1,7 @@
 <router-outlet name="subnav-sidebar-sub"></router-outlet>
 <nav class="sidenav">
   <section class="sidenav-content">
-    <a class="nav-link" [routerLink]="['/subnav-sidebar', { outlets: {'subnav-sidebar-sub': ['subnav-sidebar-sub1'] } }]">Sub Component</a>
+    <a class="nav-link active" [routerLink]="['/subnav-sidebar', { outlets: {'subnav-sidebar-sub': ['subnav-sidebar-sub1'] } }]">Sub Component 1</a>
+    <a class="nav-link" [routerLink]="['/subnav-sidebar', { outlets: {'subnav-sidebar-sub': ['subnav-sidebar-sub2'] } }]">Sub Component 2</a>
   </section>
 </nav>
