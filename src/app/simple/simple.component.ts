@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-simple',
-  host: { '[class.content-container]': 'true' },
+  host: { '[class.content-container-custom]': 'true' },
   templateUrl: './simple.component.html',
   styleUrls: ['./simple.component.css']
 })
