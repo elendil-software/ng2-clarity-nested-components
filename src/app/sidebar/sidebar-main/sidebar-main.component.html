@@ -1,5 +1,5 @@
 <router-outlet name="sidebar-sub"></router-outlet>
-<nav class="sidenav">
+<nav class="sidenav" [clr-nav-level]="2">
   <section class="sidenav-content">
     <a class="nav-link active" [routerLink]="['/sidebar', { outlets: {'sidebar-sub': ['sidebar-sub1'] } }]">Sub Component 1</a>
     <a class="nav-link" [routerLink]="['/sidebar', { outlets: {'sidebar-sub': ['sidebar-sub2'] } }]">Sub Component 2</a>

@@ -21,7 +21,7 @@ import {SidebarMainComponent} from "./sidebar/sidebar-main/sidebar-main.componen
     ],
     imports: [
         BrowserModule,
-        ClarityModule.forChild(),
+        ClarityModule.forRoot(),
         HttpModule,
         SidebarModule,
         SubnavModule,

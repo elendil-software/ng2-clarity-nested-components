@@ -6,10 +6,13 @@ import {SidebarSub2Component} from "./sidebar-sub2/sidebar-sub2.component";
 import {RouterModule} from "@angular/router";
 import {RoutingModule} from '../app-routing.module'
 
+import { ClarityModule } from 'clarity-angular';
+
 @NgModule({
   imports: [
     CommonModule,
-    RoutingModule
+    RoutingModule,
+    ClarityModule
   ],
   declarations: [
     SidebarMainComponent,
