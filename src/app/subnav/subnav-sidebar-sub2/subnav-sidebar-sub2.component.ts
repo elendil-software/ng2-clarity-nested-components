@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-subnav-sidebar-sub2',
-  host: { '[class.content-area-custom]': 'true' },
+  host: { '[class.content-area]': 'true' },
   templateUrl: './subnav-sidebar-sub2.component.html',
   styleUrls: ['./subnav-sidebar-sub2.component.css']
 })
